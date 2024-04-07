@@ -40,21 +40,24 @@
       <!-- Tabbar for switching views-tabs -->
       <div class="toolbar toolbar-bottom tabbar-icons">
         <div class="toolbar-inner">
-          <a href="#view-home" class="tab-link link active">
-            <i class="ri-home-5-line"></i>
+          <a href="#view-home" class="tab-link tab-link-active">
+            <i class="icon material-icons if-md">home</i>
             <span class="tabbar-label">Home</span>
           </a>
-          <a href="#view-catalog" class="tab-link link">
-            <i class="ri-search-line"></i>
-            <span class="tabbar-label">Busca</span>
+          <a href="#view-catalog" class="tab-link">
+            <i class="icon f7-icons if-not-md">square_list_fill</i>
+            <i class="icon material-icons if-md">view_list</i>
+            <span class="tabbar-label">Ronaldo</span>
           </a>
-          <a href="#view-settings" class="tab-link link">
-            <i class="ri-chat-3-line"></i>
-            <span class="tabbar-label">Chat</span>
+          <a href="#view-settings" class="tab-link">
+            <i class="icon f7-icons if-not-md">gear</i>
+            <i class="icon material-icons if-md">settings</i>
+            <span class="tabbar-label">Settings</span>
           </a>
-          <a href="#view-settings" class="tab-link link">
-            <i class="ri-user-line"></i>
-            <span>Perfil</span>
+          <a href="#view-settings" class="tab-link">
+            <i class="icon f7-icons if-not-md">gear</i>
+            <i class="icon material-icons if-md">settings</i>
+            <span class="tabbar-label">Settings</span>
           </a>
         </div>
       </div>
@@ -103,10 +106,11 @@
       <div class="view">
         <div class="page">
           <div class="page-content login-screen-content">
-            <div class="login-screen-title">Login</div>
+            <form>
+            <div class="login-screen-title">Faça seu Login!</div>
             <div class="list">
               <ul>
-                <li class="item-content formLogin">
+                <li class="item-content formlogin">
                   <div class="item-inner">
                     <div class="item-title item-label">Email</div>
                     <div class="item-input-wrap">
