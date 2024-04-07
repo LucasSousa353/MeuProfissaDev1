@@ -108,18 +108,18 @@
               <ul>
                 <li class="item-content item-input">
                   <div class="item-inner">
-                    <div class="item-title item-label">Username</div>
+                    <div class="item-title item-label">Email</div>
                     <div class="item-input-wrap">
-                      <input type="text" name="username" placeholder="Your username" value="${username}" @input="${updateUsername}"/>
+                      <input id="email" type="text" name="email" placeholder="Digite seu e-mail"/>
 
                     </div>
                   </div>
                 </li>
                 <li class="item-content item-input">
                   <div class="item-inner">
-                    <div class="item-title item-label">Password</div>
+                    <div class="item-title item-label">Senha</div>
                     <div class="item-input-wrap">
-                      <input type="password" name="password" placeholder="Your password" value="${password}" @input="${updatePassword}"/>
+                      <input id="password" type="password" name="password" placeholder="Digite sua senha"/>
 
                     </div>
                   </div>
@@ -129,13 +129,13 @@
             <div class="list">
               <ul>
                 <li>
-                  <a href="#" class="item-link list-button login-button" @click="${alertLoginData}">Sign In</a>
-
+                    <button class="btn" type="submit" id="submit">Login</button>
                 </li>
               </ul>
               <div class="block-footer">Some text about login information.<br/>Click "Sign In" to close Login Screen</div>
             </div>
           </div>
+        </form>
         </div>
       </div>
     </div>
