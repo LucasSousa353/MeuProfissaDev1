@@ -57,7 +57,7 @@
     margin-left: 5%;
 }
 
-form {
+.searchbar {
     padding-top: 15px;
     background: var(--branco);
     padding-bottom: 0px;
@@ -65,15 +65,19 @@ form {
     position: relative;
 }
 
-input[type="text"]{
-    width: 90%;
-    height: 80px;
+.inputsearch {
     border-radius: 25px;
-    margin: auto;
     padding: 10px 20px;
     border: 1px solid var(--preto);
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
+.inputsearch input {
+    width: 90%;
+    height: 60px;
+    padding: 10px 20px;
+}
 ::placeholder{
     color: #b3afaf
 }
