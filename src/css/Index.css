@@ -57,7 +57,8 @@
     margin-left: 5%;
 }
 
-form {
+.searchbar {
+    align-items: center;
     padding-top: 15px;
     background: var(--branco);
     padding-bottom: 0px;
@@ -65,15 +66,18 @@ form {
     position: relative;
 }
 
-input[type="text"]{
-    width: 90%;
-    height: 80px;
+.inputsearch {
+    width: 80%;
+    height: 50px;
     border-radius: 25px;
     margin: auto;
     padding: 10px 20px;
     border: 1px solid var(--preto);
 }
 
+.inputsearch input {
+    text-align: center; /* Centraliza o texto dentro do input */
+}
 ::placeholder{
     color: #b3afaf
 }

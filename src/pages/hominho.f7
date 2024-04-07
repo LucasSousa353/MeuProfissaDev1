@@ -11,10 +11,12 @@
       </div>
   </div>
     <!-- Scrollable page content-->
-    <div class="page-content">
+    <div>
       <form class="searchbar">
+        <div class="inputsearch">
         <input placeholder="Busca" type="text"/>
         <i class="icone-busca ri-search-line"></i>
+      </div>
     </form>
     </div>
   </div>
