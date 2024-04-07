@@ -110,7 +110,7 @@
             <div class="login-screen-title">Faça seu Login!</div>
             <div class="list">
               <ul>
-                <li class="item-content item-input">
+                <li class="item-content formLogin">
                   <div class="item-inner">
                     <div class="item-title item-label">Email</div>
                     <div class="item-input-wrap">
@@ -126,16 +126,19 @@
                       <input id="password" type="password" name="password" placeholder="Digite sua senha"/>
 
                     </div>
+                    
                   </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-input-wrap">
+                  <button class="btn" type="submit" id="submit">Login</button>
+                </div>
+                </div>
                 </li>
               </ul>
             </div>
             <div class="list">
-              <ul>
-                <li>
-                    <button class="btn" type="submit" id="submit">Login</button>
-                </li>
-              </ul>
               <div class="block-footer">Some text about login information.<br/>Click "Sign In" to close Login Screen</div>
             </div>
           </div>
