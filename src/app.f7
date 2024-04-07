@@ -110,7 +110,7 @@
             <div class="login-screen-title">Faça seu Login!</div>
             <div class="list">
               <ul>
-                <li class="item-content formlogin">
+                <li class="item-content">
                   <div class="item-inner">
                     <div class="item-title item-label">Email</div>
                     <div class="item-input-wrap">
