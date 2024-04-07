@@ -16,7 +16,7 @@
     height: 80px;
 }
 
-.tab-link{
+.tab-link-active{
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
