@@ -58,7 +58,6 @@
 }
 
 .searchbar {
-    align-items: center;
     padding-top: 15px;
     background: var(--branco);
     padding-bottom: 0px;
@@ -67,16 +66,17 @@
 }
 
 .inputsearch {
-    width: 80%;
-    height: 50px;
     border-radius: 25px;
-    margin: auto;
     padding: 10px 20px;
     border: 1px solid var(--preto);
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .inputsearch input {
-    text-align: center; /* Centraliza o texto dentro do input */
+    width: 90%;
+    height: 60px;
+    padding: 10px 20px;
 }
 ::placeholder{
     color: #b3afaf
