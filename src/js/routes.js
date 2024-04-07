@@ -6,6 +6,7 @@ import CatalogPage from '../pages/catalog.f7';
 import ProductPage from '../pages/product.f7';
 import SettingsPage from '../pages/settings.f7';
 import hominhoPage from '../pages/hominho.f7';
+import signinPage from '../pages/signin.f7';
 
 import DynamicRoutePage from '../pages/dynamic-route.f7';
 import RequestAndLoad from '../pages/request-and-load.f7';
@@ -39,6 +40,10 @@ var routes = [
   {
     path: '/hominho/',
     component: hominhoPage,
+  },
+  {
+    path: '/signin/',
+    component: signinPage,
   },
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',

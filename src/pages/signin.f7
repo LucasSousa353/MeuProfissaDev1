@@ -1,0 +1,31 @@
+<template>
+    <div class="page" data-name="signin">
+
+<!-- Signin Screen -->
+    <script type="module" src="./js/firebase_signin.js" defer></script>
+    <div class="signin-screen" id="my-signin-screen">
+      <div class="view">
+        <div class="page">
+          <div class="page-content signin-screen-content">
+            <form class="formLogin">
+              <h1>Meu Profissa App</h1>
+              <h2>Cadastre-se!</h2>
+              <p>Estamos felizes em ter você por aqui!</p>
+              <label for="email">E-mail</label>
+              <input id="email" type="e-mail" name="email" placeholder="Digite seu e-mail" autofocus="true" />
+
+              <label for="password">Senha</label>
+              <input id="password" type="password" placeholder="Digite sua senha" autofocus="true" />
+              <a href="/">Esqueci minha senha</a>
+              <button class="btn" type="submit" id="submit">Login</button>
+                <p>Já tenho uma conta!</p>
+                  <a href="/login/" >
+                    <button class="btnSecnd">Fazer login</button>
+                  </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</template>
