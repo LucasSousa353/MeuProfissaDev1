@@ -15,37 +15,48 @@ body {
     height: 100%;
 }
 
-.inputLogin {
+.formLogin {
     display: flex;
     flex-direction: column;
     background-color: #fff;
     border-radius: 7px;
     padding: 75px;
-    gap: 3px
+    gap: 6px
 }
 
-.inputLogin h1 {
+.formLogin h1 {
     padding: 0;
     margin: 0;
     font-weight: 550;
     font-size: 3.0em;
 }
 
-.inputLogin h2 {
+.formLogin h2 {
     padding: 0;
     margin: 0;
     font-weight: 450;
     font-size: 2.0em;
 }
 
-.inputLogin p {
+.formLogin p {
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     color: #666;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
-.inputLogin input {
+.formLogin input{
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.formLogin input[type=password]  {
     padding: 15px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -56,17 +67,16 @@ body {
     outline: none;
 }
 
-
-.inputLogin input:focus {
+.formLogin input:focus {
     border: 1px solid #388eff;
 }
 
-.inputLogin label {
-    font-size: 14px;
+.formLogin label {
+    font-size: 20px;
     font-weight: 600;
 }
 
-.inputLogin a {
+.formLogin a {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 13px;
@@ -77,19 +87,14 @@ body {
 .btn {
     background-color: var(--azul);
     color: #fff;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     border: none !important;
     transition: all linear 160ms;
     cursor: pointer;
-    margin: 0 !important;
-    border-radius: 4px;
     height: 50px;
-}
-
-.possui-conta {
-    text-align: center; /* Centralizar o texto */
-    background: var(--branco);
+    border-radius:5px;
+    margin-top:10px;
 }
 
 .btnSecnd {
@@ -105,7 +110,7 @@ body {
 
 .btn:hover {
     transform: scale(1.05);
-    background-color: var(--azul);
+    background-color: var(--cinza);
 }
 
 .login-inner{
