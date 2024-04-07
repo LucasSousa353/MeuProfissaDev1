@@ -116,14 +116,20 @@
 
               <label for="password">Senha</label>
               <input id="password" type="password" placeholder="Digite sua senha" autofocus="true" />
-
+              <a href="/">Esqueci minha senha</a>
               <button class="btn" type="submit" id="submit">Login</button>
-              <div>Some text about login information.<br />Click "Sign In" to close Login Screen</div>
+                <p>Não possui uma conta ainda?</p>
+                  <a href="/signin/" >
+                    <button class="btnSecnd">Criar uma agora!</button>
+                  </a>
 
+              <div class="login-inner">
+                <button class="ico-wrapper" id="submit-google-auth">
+                <img class="ico-wrapper" src="assets/ico_google.png" alt="Descrição da imagem"/>
+              </button>
+              </div>
             </form>
-            
           </div>
-
         </div>
       </div>
     </div>

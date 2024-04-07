@@ -20,8 +20,8 @@ body {
     flex-direction: column;
     background-color: #fff;
     border-radius: 7px;
-    padding: 75px;
-    gap: 6px
+    padding: 50px;
+    gap: 5px
 }
 
 .formLogin h1 {
@@ -41,7 +41,7 @@ body {
 .formLogin p {
     display: inline-block;
     font-size: 18px;
-    color: #666;
+    color: var(--preto);
     margin-bottom: 15px;
 }
 
@@ -49,7 +49,7 @@ body {
     padding: 15px;
     font-size: 14px;
     border: 1px solid #ccc;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top: 5px;
     border-radius: 4px;
     transition: all linear 160ms;
@@ -78,9 +78,9 @@ body {
 
 .formLogin a {
     display: inline-block;
-    margin-bottom: 20px;
-    font-size: 13px;
-    color: var(--cinza);
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--preto);
     transition: all linear 160ms;
 }
 
@@ -94,13 +94,18 @@ body {
     cursor: pointer;
     height: 50px;
     border-radius:5px;
-    margin-top:10px;
 }
 
 .btnSecnd {
-    color: var(--azul); /* Alterar para a cor desejada */
-    font-size: 14px; /* Definir o tamanho do texto igual ao restante */
-    text-decoration: none; /* Remover sublinhado */
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid var(--cinza);
+    transition: all linear 160ms;
+    cursor: pointer;
+    height: 50px;
+    border-radius:5px;
+    margin-top:10px;
 }
 
 .btnSecnd:hover {
@@ -121,7 +126,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    border-top:1px solid var(--gelo);
+    border-top:1px solid var(--cinza);
 }
 
 .ico-wrapper{
