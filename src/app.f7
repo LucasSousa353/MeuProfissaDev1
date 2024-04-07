@@ -39,7 +39,7 @@
       <!-- Tabbar for switching views-tabs -->
       <div class="toolbar toolbar-bottom tabbar-icons">
         <div class="toolbar-inner display-flex">
-          <a href="#view-home" class="tab-link link">
+          <a href="#view-hominho" class="tab-link link">
             <i class="ri-home-5-line"></i>
             <span>Home</span>
           </a>
@@ -51,7 +51,7 @@
             <i class="ri-chat-3-line"></i>
             <span>Chat</span>
           </a>
-          <a href="#view-settings" class="tab-link link">
+          <a href="#view-home" class="tab-link link">
             <i class="ri-user-line"></i>
             <span>Perfil</span>
           </a>
@@ -71,6 +71,10 @@
       <!-- Settings View -->
       <div id="view-settings" class="view view-init tab" data-name="settings" data-url="/settings/">
         <!-- Settings page will be loaded here dynamically from /settings/ route -->
+      </div>
+      <!-- Settings View -->
+      <div id="view-hominho" class="view view-init tab" data-name="hominho" data-url="/hominho/">
+      <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
     </div>
 

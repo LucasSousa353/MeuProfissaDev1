@@ -1,0 +1,26 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+    <div class="top-nav">
+      <h1 class="title-logo">MeuProfissa</h1>
+      <div class="container-login">
+        <a href="#" class="login-screen-open" data-login-screen="#my-login-screen">
+              <h4 class="faz-login">Fazer Login</h4>
+              <i class="ri-user-5-line"></i>
+          </a>
+      </div>
+  </div>
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <form class="searchbar">
+        <input placeholder="Busca" type="text"/>
+        <i class="icone-busca ri-search-line"></i>
+    </form>
+    </div>
+  </div>
+</template>
+<script>
+export default () => {
+  return $render;
+}
+</script>
