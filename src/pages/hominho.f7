@@ -14,15 +14,59 @@
     <div>
       <form class="searchbar">
         <div class="inputsearch">
-        <input placeholder="Busca" type="text"/>
-        <i class="icone-busca ri-search-line"></i>
-      </div>
-    </form>
+          <input placeholder="Busca" type="text"/>
+           <i class="icone-busca ri-search-line"></i>
+        </div>
+      </form>
+      <div class="mySwiper">
+      <swiper-container space-between="10"
+        slides-per-view="4">
+        <swiper-slide>
+          <div class="profissao-container">
+            <img class="Profissa-img" src="assets/Profissão.png"/>
+            <span class="Profissa-title">Profissão</span>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="profissao-container">
+            <img class="Profissa-img" src="assets/Profissão.png"/>
+            <span class="Profissa-title">Profissão</span>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="profissao-container">
+            <img class="Profissa-img" src="assets/Profissão.png"/>
+            <span class="Profissa-title">Profissão</span>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="profissao-container">
+            <img class="Profissa-img" src="assets/Profissão.png"/>
+            <span class="Profissa-title">Profissão</span>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="profissao-container">
+            <img class="Profissa-img" src="assets/Profissão.png"/>
+            <span class="Profissa-title">Profissão</span>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="profissao-container">
+            <img class="Profissa-img" src="assets/Profissão.png"/>
+            <span class="Profissa-title">Profissão</span>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="profissao-container">
+            <img class="Profissa-img" src="assets/Profissão.png"/>
+            <span class="Profissa-title">Profissão</span>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </div>
     </div>
   </div>
+  
 </template>
-<script>
-export default () => {
-  return $render;
-}
-</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
